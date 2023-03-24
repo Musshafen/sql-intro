@@ -36,3 +36,6 @@ VALUES ('TREVOR STORY', '100000', 'Server', '10', 'No');
 
 INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
 VALUES ('JASON VARITEK', '100000', 'Captain oh my Captain', '33', 'No');
+
+SELECT * FROM "Employees";
+
