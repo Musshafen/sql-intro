@@ -4,7 +4,7 @@ CREATE TABLE "Employees" (
    "Salary"  INT,
    "JobPosition"  TEXT,
     "PhoneExtension" INT,
-    "IsPartTime" TEXT,
+    "IsPartTime" TEXT
 );
 
 INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
