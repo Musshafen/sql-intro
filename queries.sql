@@ -8,13 +8,13 @@ CREATE TABLE "Employees" (
 );
 
 INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
- VALUES ('KELLY MUSSHAFEN', '120000', 'Manager' '1233', 'No');
+ VALUES ('KELLY MUSSHAFEN', '120000', 'Manager', '1233', 'No');
 
  INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
 VALUES ('DAVID ORTIZ', '90000', 'Cook', '34', 'Yes');
 
 INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
- VALUES ('LAZY LARRY', '24000', 'Parking Attendant' '9', 'No');
+ VALUES ('LAZY LARRY', '24000', 'Parking Attendant', '9', 'No');
 
  INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
  VALUES ('MANNY RAMIREZ', '240000', 'Just Being Manny', '24', 'No');
