@@ -39,3 +39,4 @@ VALUES ('JASON VARITEK', '100000', 'Captain oh my Captain', '33', 'No');
 
 SELECT * FROM "Employees";
 
+SELECT "FullName", "PhoneExtension" FROM "Employees" WHERE "IsPartTime" = 'No';
