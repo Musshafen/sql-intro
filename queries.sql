@@ -47,3 +47,5 @@ VALUES ('CHAIM BLOOM', '450', 'Software Developer', '55', 'Yes');
 UPDATE "Employees" SET "Salary" = '500' WHERE "JobPosition" = 'Cook';
 
 DELETE FROM "Employees" WHERE "FullName" = 'LAZY LARRY';
+
+ALTER TABLE "Employees" ADD COLUMN "ParkingSpot" VARCHAR(10);
