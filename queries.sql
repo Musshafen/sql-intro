@@ -40,3 +40,6 @@ VALUES ('JASON VARITEK', '100000', 'Captain oh my Captain', '33', 'No');
 SELECT * FROM "Employees";
 
 SELECT "FullName", "PhoneExtension" FROM "Employees" WHERE "IsPartTime" = 'No';
+
+INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
+VALUES ('CHAIM BLOOM', '450', 'Software Developer', '55', 'Yes');
