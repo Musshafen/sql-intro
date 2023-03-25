@@ -43,3 +43,5 @@ SELECT "FullName", "PhoneExtension" FROM "Employees" WHERE "IsPartTime" = 'No';
 
 INSERT INTO "Employees" ("FullName", "Salary", "JobPosition", "PhoneExtension", "IsPartTime")
 VALUES ('CHAIM BLOOM', '450', 'Software Developer', '55', 'Yes');
+
+UPDATE "Employees" SET "Salary" = '500' WHERE "JobPosition" = 'Cook';
